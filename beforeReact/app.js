@@ -40,3 +40,13 @@ let movie={
 let full={...person,...movie}
 console.log(full)
 console.log(person.cast)
+
+//object destructing
+let info={
+    "name":"Pradip Thapa",
+    "age":24,
+    "occupation":"Software Engineer"
+}
+console.log(info.occupation)
+let {name,age,occupation}=info;
+console.log(occupation)
