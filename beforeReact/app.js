@@ -14,3 +14,9 @@ demo("ram")
 //es6
 let demoArrow=(name="Pradip")=>name + " "+"Thapa";
 console.log(demoArrow("shyam"))
+
+//rest parameter
+let rest=(...arg)=>{
+    console.log(arg)
+}
+rest("Hello","Hi")
