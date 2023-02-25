@@ -50,3 +50,6 @@ let info={
 console.log(info.occupation)
 let {name,age,occupation}=info;
 console.log(occupation)
+
+//https://www.youtube.com/watch?v=WzXaeRQKI0c&ab_channel=IndianCoders
+//18 minutes
