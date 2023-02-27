@@ -68,3 +68,5 @@ console.log(occupation)
 //above to react
 let double=num=>(num+num)*num;
 console.log(double(20))
+
+//Export and Import (Modules)
