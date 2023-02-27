@@ -75,3 +75,17 @@ import persons  from "./customer.js"
 hello();
 console.log(d)
 console.log(persons)
+
+//class and objects
+
+class firstClass{
+    constructor(n){
+        this.name=n;
+    }
+    greet(){
+        console.log("Hello there.."+ this.name)
+    }
+}
+
+let shyam=new firstClass("shyam")
+console.log(shyam.greet())
