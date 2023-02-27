@@ -70,3 +70,6 @@ let double=num=>(num+num)*num;
 console.log(double(20))
 
 //Export and Import (Modules)
+import { hello,data as d } from "./sale.js";
+hello();
+console.log(d)
