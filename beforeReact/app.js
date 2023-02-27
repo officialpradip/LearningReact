@@ -53,3 +53,18 @@ console.log(occupation)
 
 //https://www.youtube.com/watch?v=WzXaeRQKI0c&ab_channel=IndianCoders
 //18 minutes
+
+//function in react
+// function double(num){
+//     return num;
+// }
+// console.log(double(20))
+
+//above to array
+// let double=(num)=>{
+//     return num;
+// }
+// console.log(double(20))
+//above to react
+let double=num=>(num+num)*num;
+console.log(double(20))
