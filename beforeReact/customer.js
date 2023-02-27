@@ -1,5 +1,5 @@
-const person={
+const persons={
     name:"Ram"
 }
 
-export default person;
+export default persons;

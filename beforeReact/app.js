@@ -71,5 +71,7 @@ console.log(double(20))
 
 //Export and Import (Modules)
 import { hello,data as d } from "./sale.js";
+import persons  from "./customer.js"
 hello();
 console.log(d)
+console.log(persons)
