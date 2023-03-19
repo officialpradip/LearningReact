@@ -27,9 +27,9 @@ function App() {
   return (
     <div>
       <h2>Let's Started</h2>
-       <ExpensesItems date={expense[0].Date} title={expense[0].title} price={expense[0].price}></ExpensesItems>
-       <ExpensesItems date={expense[1].Date} title={expense[1].title} price={expense[1].price}></ExpensesItems>
-       <ExpensesItems date={expense[2].Date} title={expense[2].title} price={expense[2].price}></ExpensesItems>
+       <ExpensesItems date={expense[0].date} title={expense[0].title} price={expense[0].price}></ExpensesItems>
+       <ExpensesItems date={expense[1].date} title={expense[1].title} price={expense[1].price}></ExpensesItems>
+       <ExpensesItems date={expense[2].date} title={expense[2].title} price={expense[2].price}></ExpensesItems>
     </div>
    
   );
