@@ -3,7 +3,7 @@ import './App.css';
 import Expenses from './components/Expense/expenses';
 
 import React from 'react'
-function App() {
+const App=()=> {
   let expense=[{
     id:'e1',
     title:'Health Insurance',
