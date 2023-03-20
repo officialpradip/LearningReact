@@ -1,5 +1,5 @@
 import './card.css'
-
+import React from 'react';
 function Card(props){
     const classes= 'card'+props.className
     return(

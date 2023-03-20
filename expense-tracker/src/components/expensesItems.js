@@ -1,6 +1,7 @@
 import './expensesItems.css'
 import ExpenseDate from './expensedate';
 import Card from './card';
+import React from 'react';
 function ExpensesItems(props){
     return(
         <Card className="expense-item">
