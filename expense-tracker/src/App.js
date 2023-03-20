@@ -1,6 +1,7 @@
 
 import './App.css';
-import Expenses from './components/expenses';
+import Expenses from './components/Expense/expenses';
+
 import React from 'react'
 function App() {
   let expense=[{
