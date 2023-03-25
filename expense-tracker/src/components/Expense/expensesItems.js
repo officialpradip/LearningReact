@@ -1,8 +1,8 @@
 import ExpenseDate from './expensedate';
 import './expensesItems.css'
 import Card from '../UI/card';
-import React,{ useState } from 'react';
-
+import React from 'react';
+//,{ useState }
 
 const ExpensesItems=(props)=>{
     // const [newTitle,setNewTitle]=useState(" ");
