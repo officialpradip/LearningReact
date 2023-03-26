@@ -26,10 +26,13 @@ const App=()=> {
 
   }
 ]
+  const assExpenseHandler=(expense)=>{
+    console.log(expense)
+  }
   return (
     <div>
       <h2>Let's Started</h2>
-      <NewExpense/>
+      <NewExpense assExpenseHandlerProps={assExpenseHandler}/>
        <Expenses items={expense}/>
     </div>
    
